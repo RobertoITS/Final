@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="welcome">Bienvenido \n Brindamos nuestra ayuda para llevar sus cuentas</string>
+    <string name="start">Empezar</string>
+    <string name="login">Accede a nuestra base de datos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_tab">Ingresar</string>
+    <string name="pass">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="passReg">Ingrese contraseña</string>
+    <string name="passReg2">Repita la contraseña</string>
+    <string name="userReg">Ingrese Email</string>
+    <string name="loginTab">Ingresar</string>
+    <string name="register">Registrarse</string>
+    <string name="default_client_web_id">409184638921-4vo3bnt6hg76dvqljqbpnbk156mavp5p.apps.googleusercontent.com</string>
+</resources>
