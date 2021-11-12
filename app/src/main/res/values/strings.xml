@@ -14,4 +14,11 @@
     <string name="loginTab">Ingresar</string>
     <string name="register">Registrarse</string>
     <string name="default_client_web_id">409184638921-4vo3bnt6hg76dvqljqbpnbk156mavp5p.apps.googleusercontent.com</string>
+
+    <string-array name="list">
+        <item>Hola</item>
+        <item>Adios</item>
+        <item>Buen día</item>
+        <item>Buenas noches</item>
+    </string-array>
 </resources>

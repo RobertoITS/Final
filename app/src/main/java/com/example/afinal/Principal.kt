@@ -1,11 +1,10 @@
 package com.example.afinal
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.afinal.databinding.PrincipalBinding
-import android.view.animation.AlphaAnimation
 import android.view.animation.AnimationUtils
+import androidx.appcompat.app.AppCompatActivity
+import com.example.afinal.databinding.PrincipalBinding
 
 class Principal : AppCompatActivity() {
     private lateinit var binding: PrincipalBinding
@@ -29,7 +28,7 @@ class Principal : AppCompatActivity() {
         binding.logo.animate().translationX(0F).alpha(1F).setDuration(1200).setStartDelay(600).start()
 
         binding.start.setOnClickListener {
-            val intent: Intent = Intent(this, Login::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
             this.overridePendingTransition(R.anim.enter, R.anim.leave)
         }
